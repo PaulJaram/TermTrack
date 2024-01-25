@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="buttonBlue">
+        <item name="colorAccent">@color/buttonColor</item>
+        <item name="backgroundColor">@color/buttonColor</item>
+    </style>
+    <style name="Base.Theme.TermTrack1" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorSecondary</item>
+
+        <item name="titleTextColor">@color/white</item>
+
+
+    </style>
+    <style name="Theme.TermTrack" parent="Base.Theme.TermTrack" />
+</resources>
